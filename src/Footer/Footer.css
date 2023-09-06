@@ -1,0 +1,87 @@
+.container-footer{
+
+    background-color: rgb(34, 31, 31);
+    height: 20rem;
+    width: 100vw;
+    
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    align-items: center;
+    padding-top: 2rem;
+    line-height: 2;
+    
+}
+.footer p a{
+    color: white;
+    font-size: 1.3rem;
+}
+.footer p a:hover{
+    color: rgb(245, 209, 30);
+    font-size: 1.5rem;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    column-gap: 3rem;
+    padding-top: 3rem;
+}
+.icons{
+    background-color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.icons:hover{
+    background-color: rgb(245, 209, 30);
+}
+
+
+@media only screen and (max-width : 768px){
+    .container-footer{
+    
+        background-color: rgb(34, 31, 31);
+        height: 20rem;
+        width: 100vw;
+        
+    }
+    
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        width: 100vw;
+        align-items: center;
+        padding-top: 2rem;
+        line-height: 2;
+        
+    }
+    .footer p a{
+        color: white;
+        font-size: 0.9rem;
+    }
+    .footer p a:hover{
+        color: rgb(245, 209, 30);
+        font-size: 1rem;
+    }
+    .footer-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 2rem;
+        column-gap: 3rem;
+        padding-top: 3rem;
+    }
+    .icons{
+        background-color: white;
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    .icons:hover{
+        background-color: rgb(245, 209, 30);
+    }
+
+}

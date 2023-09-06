@@ -1,0 +1,98 @@
+@media only screen and (max-width : 768px){
+
+    .body-container{
+        height: 80vh;
+        width: 100vw;
+        padding-top: 4rem;
+        background-size: contain;
+    }
+    
+    .arrow-btn{
+        position: absolute;
+        bottom: 25rem;
+        right: 11rem;
+        animation-name: arrow;
+        animation-duration: 2s;
+        transition: all 2s;
+    }
+    
+    @keyframes arrow{
+        from { right: 30rem; }
+        to { right: 11rem; }
+    }
+    .arrow{
+        color: yellow;
+        font-size: 6rem;
+        background-color: rgba(231, 224, 16, 0.797);
+        border-radius: 50%;
+        cursor: pointer;
+    
+    }
+
+    .download{
+        display: flex;
+        justify-content: center;
+        width: 27rem;
+        align-items: center;
+        height: 16rem;
+        color: rgb(239, 210, 24);
+        font-size: 2.4rem;
+        cursor: pointer;
+        
+    }
+    
+   
+    
+
+}
+
+
+
+.body-container{
+    height: 80vh;
+    width: 100vw;
+    padding-top: 4rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.arrow-btn{
+    position: absolute;
+    bottom: 25rem;
+    right: -0.4rem;
+    animation-name: arrow;
+    animation-duration: 2s;
+    transition: all 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+@keyframes arrow{
+    from { right: 30rem; }
+    to { right: -0.4rem; }
+}
+.arrow{
+    color: yellow;
+    font-size: 6rem;
+    background-color: rgba(231, 224, 16, 0.797);
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+    height: 16rem;
+    color: rgb(239, 210, 24);
+    font-size: 2.4rem;
+    cursor: pointer;
+    
+    
+}
+
+

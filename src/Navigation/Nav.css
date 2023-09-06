@@ -1,0 +1,16 @@
+.home-nav{
+    width: 100vw;
+    background-color: rgb(245, 209, 30);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+}
+
+.logo{
+    cursor: pointer;
+}
+.logo h3:hover{
+    color: rgb(79, 65, 65);
+}
